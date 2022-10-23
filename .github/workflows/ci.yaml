@@ -57,7 +57,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.8
       - name: Test setup.py
@@ -87,7 +87,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.8
       - name: Pip install dependencies
@@ -445,7 +445,7 @@ jobs:
           submodules: recursive
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.8
 
@@ -2522,7 +2522,7 @@ jobs:
           submodules: recursive
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.8
 
@@ -4567,7 +4567,7 @@ jobs:
           submodules: recursive
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.8
 
